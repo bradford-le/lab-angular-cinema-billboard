@@ -7,7 +7,7 @@ export class MyCinemaServiceService {
   Movies = [
     {
       id: 1,
-      room:3,
+      room:1,
       showing: "Monday",
       title: "The Shawshank Redemption",
       poster: "https://i.imgur.com/SuW2ZlC.jpg",
@@ -27,7 +27,7 @@ export class MyCinemaServiceService {
       ]
     }, {
       id: 2,
-      room: 1,
+      room: 2,
       showing: "Tuesday",
       title: "The Godfather",
       poster: "https://i.imgur.com/Uzvny9I.jpg",
@@ -47,7 +47,7 @@ export class MyCinemaServiceService {
       ]
     }, {
       id: 3,
-      room: 2,
+      room: 3,
       showing: "Wednesday",
       title: "The Godfather Part II",
       poster: "https://i.imgur.com/abJNkWI.jpg",

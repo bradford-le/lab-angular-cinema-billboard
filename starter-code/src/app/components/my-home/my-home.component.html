@@ -2,10 +2,11 @@
 <div class="movie-container">
     <div *ngFor="let movie of movies" class="movie-titles">
         <p>THEATRE {{movie.room}}</p>
-        <a [routerLink]="['movie',movie.id]">
+        <a [routerLink]="['../movie',movie.id]"> <!--default path redirects to home so need ../ to get back to root-->
             <img src="{{movie.poster}}" alt="movie image">
         </a>
         <p>{{movie.title}}</p>
+        <button (click)="viewDetails(movie.id)">View Movie Details</button>
     </div>
 </div>
 
