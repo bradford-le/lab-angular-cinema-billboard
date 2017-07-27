@@ -1,0 +1,23 @@
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+h2{
+  text-align: center;
+}
+img{
+  float:left; 
+  margin-right: 15px;
+}
+.info-container{
+  margin-top: 15px;
+}
+button{
+  width: 5rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(white));
+  background-image: -webkit-linear-gradient(top, black, white);
+  background-image: -moz-linear-gradient(top, black, white);
+  background-image: linear-gradient(to bottom, black, white);
+  color: white;
+  border-radius: 5px;
+}

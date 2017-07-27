@@ -1,3 +1,18 @@
-<h3>MOVIE TITLE {{movie.title}}</h3>
+<h1>THEATRE {{movie.room}} </h1>
+  <h2>{{movie.title}}</h2>
+<div>
 
-<button (click)="goToHome()">Home</button>
+  <img src="{{movie.poster}}" alt="movie poster" style="width:300px;height:400px">
+  <div class="info-container">
+    <p>GENRES: {{movie.genres}}</p>
+    <p>Year: {{movie.year}}</p>
+    <p>Actors: {{movie.actors}}</p>
+    <p>Schedule: {{movie.showing}}</p>
+    <p>Synopsis: {{movie.synopsis}}</p>
+  
+  </div>
+  
+</div>
+
+
+<button (click)="goToHome()"><Back</button>
